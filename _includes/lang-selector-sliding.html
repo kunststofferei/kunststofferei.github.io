@@ -11,10 +11,12 @@
 		{% if page.lang == "en" and post.lang == "de" %}
 			<a class="dropdown-item" href="{{ site.base-url }}{{ post.url }}" role="menuitem">
 			<div class="title">DE</div>
+			</a>
 		{% endif %}
 		{% if page.lang == "de" and post.lang == "en" %}
 			<a class="dropdown-item" href="{{ site.base-url }}{{ post.url }}" role="menuitem">
 			<div class="title">EN</div>
+			</a>
 		{% endif %}
 	{% endfor %}
 {% endif %}
