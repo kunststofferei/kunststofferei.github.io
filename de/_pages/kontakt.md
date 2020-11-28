@@ -19,11 +19,8 @@ Um immer auf dem Laufenden zu bleiben, könnt Ihr uns auf [Facebook](https://www
 ## Schreibt uns ein Brief
 
 Kunststofferei/Trash Galore
-
 Diezmannstr 20
-
 Sachsen, Leipzig, 04207
-
 Deutschland
 
 
