@@ -70,15 +70,7 @@
   de:
     title: Datenschutzerklärung
     link: /de/datenschutzerklaerung
-    
- footer-contact:
-  en:
-    title: Contact Us
-    link: /en/contact
-  de:
-    title: Kontakt
-    link: /de/kontakt
-    
+        
  menu-lang:
   en:
     title: Auf Deutsch

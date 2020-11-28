@@ -1,13 +1,28 @@
 <footer role="contentinfo" id="site-footer">
 
-{% include lang-selector-footer.html %}
-
 	<nav role="navigation" class="menu bottom-menu">
 	
 		<ul class="menu-item">		
 			<li><a class="dropdown-item" href="{{ site.baseurl }}{{ site.data.translations.footer-home[page.lang].link }}" role="menuitem">{{site.data.translations.footer-home[page.lang].title }}</a></li>
+			<li><a class="dropdown-item" href="{{ site.baseurl }}{{ site.data.translations.menu-about[page.lang].link }}" role="menuitem">{{site.data.translations.menu-about[page.lang].title }}</a></li>
+			<li><a class="dropdown-item" href="{{ site.baseurl }}{{ site.data.translations.menu-gallery[page.lang].link }}" role="menuitem">{{site.data.translations.menu-gallery[page.lang].title }}</a></li> 
+			<li><a class="dropdown-item" href="{{ site.baseurl }}{{ site.data.translations.menu-contact[page.lang].link }}" role="menuitem">{{site.data.translations.menu-contact[page.lang].title }}</a></li>
 			<li><a class="dropdown-item" href="{{ site.baseurl }}{{ site.data.translations.footer-gdpr[page.lang].link }}" role="menuitem">{{site.data.translations.footer-gdpr[page.lang].title }}</a></li>
-			<li><a class="dropdown-item" href="{{ site.baseurl }}{{ site.data.translations.footer-contact[page.lang].link }}" role="menuitem">{{site.data.translations.footer-contact[page.lang].title }}</a></li>
+			
+			{% assign posts=site.posts | where:"lang-ref", page.lang-ref | sort: 'lang' %}
+    {% if posts.size == 0 %}
+        {% assign posts=site.pages | where:"lang-ref", page.lang-ref | sort: 'lang' %}
+    {% endif %}
+    {% if posts.size > 1 %}
+	 {% for post in posts %}   
+		{% if page.lang == "en" and post.lang == "de" %}
+			<li><a href="{{ site.base-url }}{{ post.url }}" class="{{ post.lang }}" title="Auf deutsch anzeigen." role="menuitem">EN | <span style="color: #B3B3B0">DE</span></a></li>
+		{% endif %}
+		{% if page.lang == "de" and post.lang == "en" %}
+			<li><a href="{{ site.base-url }}{{ post.url }}" class="{{ post.lang }}" title="Auf deutsch anzeigen." role="menuitem"><span style="color: #B3B3B0">EN</span> | DE</a></li>
+		{% endif %}
+	{% endfor %}
+	{% endif %}
 		</ul>
 		
 	</nav><!-- /.bottom-menu -->
