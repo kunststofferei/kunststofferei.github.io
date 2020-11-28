@@ -1,5 +1,0 @@
-I"j<p>Suchst Du nach etwas Bestimmten? Finde es über die Suche.</p>
-
-<p>{% include search.html %}</p>
-
-:ET
