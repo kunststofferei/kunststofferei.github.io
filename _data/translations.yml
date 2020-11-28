@@ -14,13 +14,22 @@
     title: Über uns
     link: /de/ueber-uns
  
- menu-team:
+ menu-gallery:
   en:
-    title: Team
-    link: /en/team
+    title: Gallery
+    link: /en/gallery
   de:
-    title: Team
-    link: /de/team
+    title: Gallerie
+    link: /de/gallerie
+    
+ menu-contact:
+  en:
+    title: Contact
+    link: /en/contact
+  de:
+    title: Kontakt
+    link: /de/kontakt
+
     
  menu-search:
   en:
