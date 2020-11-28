@@ -1,0 +1,16 @@
+<div id="lang-selector-footer">
+	{% assign posts=site.posts | where:"lang-ref", page.lang-ref | sort: 'lang' %}
+    {% if posts.size == 0 %}
+        {% assign posts=site.pages | where:"lang-ref", page.lang-ref | sort: 'lang' %}
+    {% endif %}
+    {% if posts.size > 1 %}
+	 {% for post in posts %}   
+		{% if page.lang == "en" and post.lang == "de" %}
+			Hey, diese Seite gibt es übrigens auch <a href="{{ site.base-url }}{{ post.url }}" class="{{ post.lang }}" title="Auf deutsch anzeigen.">auf deutsch</a>.
+		{% endif %}
+		{% if page.lang == "de" and post.lang == "en" %}
+			Hey, you can also read this page <a href="{{ site.base-url }}{{ post.url }}" class="{{ post.lang }}" title="Show in English.">in English</a>.
+		{% endif %}
+	{% endfor %}
+	{% endif %}
+</div>

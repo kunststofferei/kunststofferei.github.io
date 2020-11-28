@@ -1,0 +1,37 @@
+<nav role="navigation" id="js-menu" class="sliding-menu-content">
+  <a class="dropdown-item" href="{{ site.baseurl }}{{ site.data.translations.menu-home[page.lang].link }}" role="menuitem">
+        <h5>{{site.data.translations.menu-home[page.lang].title }}</h5>
+  </a>
+  <ul class="menu-item">
+   <li>
+      <a class="dropdown-item" href="{{ site.baseurl }}{{ site.data.translations.menu-news[page.lang].link }}" role="menuitem">
+        <div class="title">{{site.data.translations.menu-news[page.lang].title }}</div>
+      </a>
+    </li>
+   <li>
+      <a class="dropdown-item" href="{{ site.baseurl }}{{ site.data.translations.menu-about[page.lang].link }}" role="menuitem">
+        <div class="title">{{site.data.translations.menu-about[page.lang].title }}</div>
+      </a>
+    </li>
+   <li>
+      <a class="dropdown-item" href="{{ site.baseurl }}{{ site.data.translations.menu-team[page.lang].link }}" role="menuitem">
+        <div class="title">{{site.data.translations.menu-team[page.lang].title }}</div>
+      </a>
+    </li>
+   <li>
+      <a class="dropdown-item" href="{{ site.baseurl }}{{ site.data.translations.menu-search[page.lang].link }}" role="menuitem">
+        <div class="title">{{site.data.translations.menu-search[page.lang].title }}</div>
+      </a>
+    </li>
+	<li>
+		{% include lang-selector-sliding.html %}
+	</li>
+  </ul>
+</nav>
+<button type="button" id="js-menu-trigger" class="sliding-menu-button lines-button x2" role="button" aria-label="Toggle Navigation">
+  <span class="nav-lines"></span>
+</button>
+
+<div id="js-menu-screen" class="menu-screen"></div>
+
+

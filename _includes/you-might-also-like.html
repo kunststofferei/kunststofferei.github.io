@@ -1,0 +1,11 @@
+<ul>
+{% assign count = 1 %}
+{% for post in site.posts %}
+{% if post.categories contains "news" %}
+{% if post.url != page.url and count < 6 %}
+<li><a href="{{ post.url }}">{{ post.issue }}: {{ post.title }}</a></li>
+{% assign count = count | plus: 1 %}
+{% endif %}
+{% endif %}
+{% endfor %}
+</ul>

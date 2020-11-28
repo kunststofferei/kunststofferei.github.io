@@ -1,0 +1,84 @@
+# ============================================================
+# _config.yml
+# 
+# configuration file for site wide settings
+# ============================================================
+
+#---------------------------
+# Site settings
+#---------------------------
+
+title: Kunststofferei Leipzig
+email: info@kunststofferei.de
+description: "Kunststofferei is an open collective working locally on practical solutions to plastic waste in Leipzig as part of the Precious Plastic Universe."
+url: https://www.kunststofferei.de
+baseurl: ""
+locale: en
+feed:
+  path: feed.xml
+
+
+#---------------------------
+# Build settings
+#---------------------------
+
+permalink: /:categories/:title/
+include: ['_pages', '_pages/forms', '_events', '.htaccess']
+exclude: ['Gemfile', 'Gemfile.lock', 'node_modules', 'LICENSE.md', 'README.md', 'Gruntfile.js', 'package.json']
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed  
+ 
+#---------------------------
+# Default YAML Settings
+#---------------------------
+
+defaults:
+  - scope:
+      path: "en"
+    values:
+      lang: "en"
+  - scope:
+      path: "de"
+    values:
+      lang: "de"
+
+
+#---------------------------
+# Style settings
+#---------------------------
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+#---------------------------
+# Markdown settings
+#---------------------------
+
+kramdown:
+  toc_levels: 1..2
+highlighter: rouge
+
+
+#---------------------------
+# Author settings for posts
+#---------------------------
+
+owner:
+  name: Kunststofferei Leipzig 
+  email: info@kunststofferei.de
+  twitter: Kunststofferei
+  bio: Kunststofferei is an open collective working locally on practical solutions to plastic waste in Leipzig as part of the Precious Plastic Universe.
+  avatar: logos-kunststofferei/logo-kunststofferei-square-160.png
+  
+#---------------------------
+# Social media
+#---------------------------
+  
+facebook_url: https://www.facebook.com/Kunststofferei
+twitter_url: https://twitter.com/Kunststoferei
+instagram_url: https://www.instagram.com/Kunststofferei
+youtube_url: 

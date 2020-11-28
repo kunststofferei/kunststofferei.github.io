@@ -1,0 +1,4 @@
+I"j<p>We are a community-run, volunteer-based initiative to bring plastic recycling closer to the consumer, but we are only a small part of the global <a href="https://preciousplastic.com/en/index.html">Precious Plastic</a> movement. To get involved yourself, check out the <a href="/get-involved">Get Involved</a> section.</p>
+
+<p>{% include team-grid.html %}</p>
+:ET

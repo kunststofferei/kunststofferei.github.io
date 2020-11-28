@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <!-- START Google Analytics tracker -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-251968938-1"></script>
+		<script>  
+		  window.dataLayer = window.dataLayer || [];  
+		  function gtag(){dataLayer.push(arguments);}  
+		  gtag('js', new Date());      
+	      gtag('config', 'UA-251968938-1');
+		</script>
+    <!-- END Google Analytics tracker -->
+    
+    <meta charset="utf-8">
+    <title>{% if page.title %}{{ page.title }} • {% endif %}{{ site.title }}</title>
+    {% if page.excerpt %}<meta name="description" content="{{ page.excerpt | strip_html }}">{% endif %}
+    {% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
+    {% if page.author %}
+      {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.owner %}
+    {% endif %}
+    {% include open-graph.html %}
+
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl }}">
+
+    <link href="{{ site.baseurl }}/atom.xml" type="application/atom+xml" rel="alternate" title="{{ site.title }} Atom Feed">
+    <link href="{{ site.baseurl }}/sitemap.xml" type="application/xml" rel="sitemap" title="Sitemap">
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="cleartype" content="on">	
+  
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
+    <!-- HTML5 Shiv and Media Query Support for IE -->
+    <!--[if lt IE 9]>
+      <script src="{{ site.baseurl }}/js/vendor/html5shiv.min.js"></script>
+      <script src="{{ site.baseurl }}/js/vendor/respond.min.js"></script>
+    <![endif]-->
+	
+	
+
+  </head>
+
+  <body id="js-body">
+    {% include browser-upgrade.html %}
+    {% include header.html %}
+    {% include navigation-sliding.html %}
+
+    <div id="page-wrapper">
+	
+		{{ content }}
+	  
+		{% include footer.html %}
+    </div>
+
+    <script src="{{ site.baseurl }}/js/vendor/jquery-1.9.1.min.js"></script>
+    <script src="{{ site.baseurl }}/js/main.js"></script>
+	
+<!-- START Tik Tok timeline plug-in -->  
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment.min.js"></script>	
+	<link href="{{ site.baseurl }}/js/tiktok/tik-tok.min.css" rel="stylesheet" type="text/css">
+	<script src="{{ site.baseurl }}/js/tiktok/tik-tok.min.js"></script>
+<!-- END Tik Tok timeline plug-in -->  
+	
+	<!-- START open external links and PDFs in a new window -->
+	{% include external-links.html %}
+	<!-- END open external links and PDFs in a new windo -->
+	
+	<!-- START include gallery lightbox -->
+	{% include lightbox.html %}
+	<!-- END include gallery lightbox -->
+	
+	<!-- START include social media buttons -->
+	{% include follow-buttons.html %}
+	<!-- END include gallery lightbox -->
+	
+	
+  </body>
+
+</html>

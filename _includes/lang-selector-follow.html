@@ -1,0 +1,20 @@
+<!-- language selector (EN/DE for social media follow buttons on the right side -->
+ 
+ {% assign posts=site.posts | where:"lang-ref", page.lang-ref | sort: 'lang' %}
+
+{% if posts.size == 0 %}
+	{% assign posts=site.pages | where:"lang-ref", page.lang-ref | sort: 'lang' %}
+{% endif %}
+	
+{% if posts.size > 1 %}
+	{% for post in posts %}   
+		{% if page.lang == "en" and post.lang == "de" %}
+			<div class="language" onclick="window.open('{{ site.base-url }}{{ post.url }}','_self');">
+			<div>DE</div>Deutsch</div>
+		{% endif %}
+		{% if page.lang == "de" and post.lang == "en" %}
+			<div class="language" onclick="window.open('{{ site.base-url }}{{ post.url }}','_self');">
+			<div>EN</div>English</div>
+		{% endif %}
+	{% endfor %}
+{% endif %}

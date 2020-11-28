@@ -1,0 +1,28 @@
+I"<table>
+  <tbody>
+    <tr>
+      <td>/*! skinny-bones-jekyll - v1.0.0 - 2015-11-17 */!function($){“use strict”;$.fn.fitVids=function(options){var settings={customSelector:null,ignore:null};if(!document.getElementById(“fit-vids-style”)){var head=document.head</td>
+      <td> </td>
+      <td>document.getElementsByTagName(“head”)[0],css=”.fluid-width-video-wrapper{width:100%;position:relative;padding:0;}.fluid-width-video-wrapper iframe,.fluid-width-video-wrapper object,.fluid-width-video-wrapper embed {position:absolute;top:0;left:0;width:100%;height:100%;}”,div=document.createElement(“div”);div.innerHTML=’&lt;p&gt;x&lt;/p&gt;<style id="fit-vids-style">'+css+"</style>“,head.appendChild(div.childNodes[1])}return options&amp;&amp;$.extend(settings,options),this.each(function(){var selectors=[“iframe[src<em>=’player.vimeo.com’]”,”iframe[src</em>=’youtube.com’]”,”iframe[src<em>=’youtube-nocookie.com’]”,”iframe[src</em>=’kickstarter.com’][src*=’video.html’]”,”object”,”embed”];settings.customSelector&amp;&amp;selectors.push(settings.customSelector);var ignoreList=”.fitvidsignore”;settings.ignore&amp;&amp;(ignoreList=ignoreList+”, “+settings.ignore);var $allVideos=$(this).find(selectors.join(“,”));$allVideos=$allVideos.not(“object object”),$allVideos=$allVideos.not(ignoreList),$allVideos.each(function(){var $this=$(this);if(!($this.parents(ignoreList).length&gt;0</td>
+      <td> </td>
+      <td>“embed”===this.tagName.toLowerCase()&amp;&amp;$this.parent(“object”).length</td>
+      <td> </td>
+      <td>$this.parent(“.fluid-width-video-wrapper”).length)){$this.css(“height”)</td>
+      <td> </td>
+      <td>$this.css(“width”)</td>
+      <td> </td>
+      <td>!isNaN($this.attr(“height”))&amp;&amp;!isNaN($this.attr(“width”))</td>
+      <td> </td>
+      <td>($this.attr(“height”,9),$this.attr(“width”,16));var height=”object”===this.tagName.toLowerCase()</td>
+      <td> </td>
+      <td>$this.attr(“height”)&amp;&amp;!isNaN(parseInt($this.attr(“height”),10))?parseInt($this.attr(“height”),10):$this.height(),width=isNaN(parseInt($this.attr(“width”),10))?$this.width():parseInt($this.attr(“width”),10),aspectRatio=height/width;if(!$this.attr(“id”)){var videoID=”fitvid”+Math.floor(999999<em>Math.random());$this.attr(“id”,videoID)}$this.wrap(‘&lt;div class="fluid-width-video-wrapper"&gt;&lt;/div&gt;’).parent(“.fluid-width-video-wrapper”).css(“padding-top”,100</em>aspectRatio+”%”),$this.removeAttr(“height”).removeAttr(“width”)}})})}}(window.jQuery</td>
+      <td> </td>
+      <td>window.Zepto),function($){var $w=$(window);$.fn.visible=function(partial,hidden,direction){if(!(this.length&lt;1)){var $t=this.length&gt;1?this.eq(0):this,t=$t.get(0),vpWidth=$w.width(),vpHeight=$w.height(),direction=direction?direction:”both”,clientSize=hidden===!0?t.offsetWidth*t.offsetHeight:!0;if(“function”==typeof t.getBoundingClientRect){var rec=t.getBoundingClientRect(),tViz=rec.top&gt;=0&amp;&amp;rec.top&lt;vpHeight,bViz=rec.bottom&gt;0&amp;&amp;rec.bottom&lt;=vpHeight,lViz=rec.left&gt;=0&amp;&amp;rec.left&lt;vpWidth,rViz=rec.right&gt;0&amp;&amp;rec.right&lt;=vpWidth,vVisible=partial?tViz</td>
+      <td> </td>
+      <td>bViz:tViz&amp;&amp;bViz,hVisible=partial?lViz</td>
+      <td> </td>
+      <td>lViz:lViz&amp;&amp;rViz;if(“both”===direction)return clientSize&amp;&amp;vVisible&amp;&amp;hVisible;if(“vertical”===direction)return clientSize&amp;&amp;vVisible;if(“horizontal”===direction)return clientSize&amp;&amp;hVisible}else{var viewTop=$w.scrollTop(),viewBottom=viewTop+vpHeight,viewLeft=$w.scrollLeft(),viewRight=viewLeft+vpWidth,offset=$t.offset(),_top=offset.top,_bottom=_top+$t.height(),_left=offset.left,_right=_left+$t.width(),compareTop=partial===!0?_bottom:_top,compareBottom=partial===!0?_top:_bottom,compareLeft=partial===!0?_right:_left,compareRight=partial===!0?_left:_right;if(“both”===direction)return!!clientSize&amp;&amp;viewBottom&gt;=compareBottom&amp;&amp;compareTop&gt;=viewTop&amp;&amp;viewRight&gt;=compareRight&amp;&amp;compareLeft&gt;=viewLeft;if(“vertical”===direction)return!!clientSize&amp;&amp;viewBottom&gt;=compareBottom&amp;&amp;compareTop&gt;=viewTop;if(“horizontal”===direction)return!!clientSize&amp;&amp;viewRight&gt;=compareRight&amp;&amp;compareLeft&gt;=viewLeft}}}}(jQuery),$(document).ready(function(){$(“#js-menu-trigger,#js-menu-screen”).on(“click touchstart”,function(e){$(“#js-menu, #js-menu-screen”).toggleClass(“is-visible”),$(“#js-menu-trigger”).toggleClass(“slide close”),e.preventDefault()})}),$(document).ready(function(){$(“#main”).fitVids()}),$(“#markdown-toc”).prepend(“&lt;li&gt;&lt;h6&gt;Overview&lt;/h6&gt;&lt;/li&gt;”);</td>
+    </tr>
+  </tbody>
+</table>
+:ET

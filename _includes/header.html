@@ -1,0 +1,36 @@
+ <header id="masthead">
+  <div class="inner-wrap">
+    <div class="header">
+      <a href="{{ site.baseurl }}{{ site.data.translations.menu-home[page.lang].link }}" class="site-title"><div class="image"></div></a>
+	</div>
+    <nav role="navigation" class="menu top-menu">
+        {% include navigation.html %}
+    </nav>
+  </div><!-- /.inner-wrap -->
+  
+<!-- START cookie notification plug-in -->  
+  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+<script>
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#dddddd"
+    },
+    "button": {
+      "background": "#759e35"
+    }
+  },
+  "position": "bottom-right",
+  "content": {
+    "href": "https://www.kunststofferei.de/privacy/"
+  }
+})});
+</script>
+<!-- END cookie notification plug-in -->  
+
+
+
+
+</header><!-- /.masthead -->

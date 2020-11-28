@@ -1,0 +1,21 @@
+ <!-- language selector (EN/DE for sliding navigation -->
+ 
+{% assign posts=site.posts | where:"lang-ref", page.lang-ref | sort: 'lang' %}
+
+{% if posts.size == 0 %}
+	{% assign posts=site.pages | where:"lang-ref", page.lang-ref | sort: 'lang' %}
+{% endif %}
+	
+{% if posts.size > 1 %}
+	{% for post in posts %}   
+		{% if page.lang == "en" and post.lang == "de" %}
+			<a class="dropdown-item" href="{{ site.base-url }}{{ post.url }}" role="menuitem">
+			<div class="title">DE</div>
+		{% endif %}
+		{% if page.lang == "de" and post.lang == "en" %}
+			<a class="dropdown-item" href="{{ site.base-url }}{{ post.url }}" role="menuitem">
+			<div class="title">EN</div>
+		{% endif %}
+	{% endfor %}
+{% endif %}
+

@@ -1,0 +1,13 @@
+<div class="tiles">
+{% for post in site.categories.team %}
+  {% if post.lang == page.lang %} 
+	<article class="teamtile" itemscope itemtype="http://schema.org/Article">
+  <img src="{{ site.baseurl }}/images/{{ post.image.teaser }}" alt="teaser" itemprop="image">
+	{% if post.status == "former" %}<h2 class="post-title" itemprop="name">{{ post.title }}<br>(Former Member)</h2>
+    {% else %}<h2 class="post-title" itemprop="name">{{ post.title }}</h2>{% endif %}
+  <p class="post-excerpt" itemprop="description">{{ post.excerpt | truncate: 1000 }}</p>
+</article><!-- /.teamtile -->
+  {% endif %}
+{% endfor %}
+</div>
+

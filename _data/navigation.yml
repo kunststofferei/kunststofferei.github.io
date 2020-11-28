@@ -1,0 +1,10 @@
+# Site navigation links
+
+- title: News
+  url: /news/
+  
+- title: About Us
+  url: /about-us/
+
+- title: Team
+  url: /team/

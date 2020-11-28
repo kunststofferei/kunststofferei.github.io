@@ -1,0 +1,11 @@
+<footer role="contentinfo" id="site-footer">
+{% include lang-selector-footer.html %}
+	<nav role="navigation" class="menu bottom-menu">
+		<ul class="menu-item">		
+			<li><a class="dropdown-item" href="{{ site.baseurl }}{{ site.data.translations.footer-home[page.lang].link }}" role="menuitem">{{site.data.translations.footer-home[page.lang].title }}</a></li>
+			<li><a class="dropdown-item" href="{{ site.baseurl }}{{ site.data.translations.footer-gdpr[page.lang].link }}" role="menuitem">{{site.data.translations.footer-gdpr[page.lang].title }}</a></li>
+			<li><a class="dropdown-item" href="{{ site.baseurl }}{{ site.data.translations.footer-contact[page.lang].link }}" role="menuitem">{{site.data.translations.footer-contact[page.lang].title }}</a></li>
+		</ul>
+	</nav><!-- /.bottom-menu -->
+	<p class="copyright">&#169; {{ site.time | date: '%Y' }} <a href="{{ site.baseurl }}{{ site.data.translations.footer-home[page.lang].link }}">Kunststofferei Leipzig</a></p>
+</footer>

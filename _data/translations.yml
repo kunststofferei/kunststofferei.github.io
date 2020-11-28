@@ -1,0 +1,82 @@
+ menu-news:
+  en:
+    title: News
+    link: /en/news
+  de:
+    title: Neuigkeiten
+    link: /de/neuigkeiten
+    
+ menu-about:
+  en:
+    title: About us
+    link: /en/about-us
+  de:
+    title: Über uns
+    link: /de/ueber-uns
+ 
+ menu-team:
+  en:
+    title: Team
+    link: /en/team
+  de:
+    title: Team
+    link: /de/team
+    
+ menu-search:
+  en:
+    title: Search
+    link: /en/search
+  de:
+    title: Suche
+    link: /de/suche
+    
+ menu-home:
+  en:
+    title: Kunststofferei Leipzig
+    link: /en
+  de:
+    title: Kunststofferei Leipzig
+    link: /de
+    
+ menu-switch:
+  en:
+    title: Auf Deutsch, bitte!
+    link: /de
+  de:
+    title: In English, please!
+    link: /en
+    
+ footer-home:
+  en:
+    title: Home
+    link: /en
+  de:
+    title: Startseite
+    link: /de
+    
+ footer-gdpr:
+  en:
+    title: Privacy Statement
+    link: /en/privacy
+  de:
+    title: Datenschutzerklärung
+    link: /de/datenschutzerklaerung
+    
+ footer-contact:
+  en:
+    title: Contact Us
+    link: /en/contact
+  de:
+    title: Kontakt
+    link: /de/kontakt
+    
+ menu-lang:
+  en:
+    title: Auf Deutsch
+    link: /de
+  de:
+    title: In English
+    link: /en
+    
+ 
+ 
