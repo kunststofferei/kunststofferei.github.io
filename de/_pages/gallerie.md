@@ -2,7 +2,7 @@
 layout: page
 title: "Gallerie"
 
-permalink: /en/gallerie/
+permalink: /de/gallerie/
 lang-ref: gallery
 ---
 
