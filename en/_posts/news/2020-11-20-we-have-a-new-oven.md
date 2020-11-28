@@ -15,5 +15,7 @@ sidebar: true
 
 We have a new oven. It still needs a name.
 
+{{ site.baseurl }}/assets/fonts/PreciousPlasticFont-Bold.ttf
+
 
 

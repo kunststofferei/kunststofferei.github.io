@@ -5,9 +5,12 @@
 /*
    Typography variables
    ========================================================================== */
+   
+@font-face { font-family: ppfont; src: url('../assets/fonts/PreciousPlasticFont-Bold.ttf'); } 
 
 $base-font                   	: "Raleway","Lato","Times New Roman",serif;
 $heading-font                	: "Varela Round","Segoe UI",Arial,sans-serif;
+$title-font						: ppfont;
 $caption-font                	: $base-font;
 $code-font                   	: monospace;
 $alt-font                    	: $heading-font;
@@ -35,7 +38,7 @@ $border-color                	: #ddd;
 $link-color                  	: #222;
 
 $primary-color               	: #0097EB;
-$secondary-color               	: #97CDEB;
+$secondary-color               	: #f58d8e;
 $success-color               	: #2ecc71;
 $warning-color               	: #f1c40f;
 $danger-color                	: #e74c3c;
@@ -82,7 +85,7 @@ $form-font-size              	: $doc-font-size;
    ========================================================================== */
 
 $sliding-menu-border-color	 	 : $primary-color;
-$sliding-menu-background 		 : $secondary-color;
+$sliding-menu-background 		 : $primary-color;
 $sliding-menu-color 	 		 : $white;
 $sliding-menu-background-hover   : $primary-color;
 $sliding-menu-color-hover	 	 : $white;

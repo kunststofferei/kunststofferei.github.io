@@ -23,53 +23,50 @@ li {
 /* Headings */
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: $heading-font;
+	font-family: $title-font;
 	text-rendering: optimizeLegibility; // Fix the character spacing for headings
 }
 h1 {
-	@include font-size(36);
+	font-size: 5rem;
 	color: $primary-color;
 }
 h2 {
-	@include font-size(32);
-	color: $primary-color;
+	font-size: 3rem;
+	color: $secondary-color;
 }
 h3 {
-	@include font-size(28);
+	font-size: 2rem;
 	color: $secondary-color;
 }
 h4 {
-	@include font-size(24);
+	font-size: 2rem;
 	color: $secondary-color;
 }
 h5 {
-	@include font-size(20);
+	font-size: 1.8rem;
 	color: $secondary-color;
 }
 h6 {
-	@include font-size(18);
+	font-size: 1.5rem;
 	color: $secondary-color;
 }
 
 .h1.rotate {
-    -webkit-transform: rotate(-4deg);
-    -ms-transform: rotate(-4deg);
-    transform: rotate(-4deg);
+    -webkit-transform: rotate(-2deg);
+    -ms-transform: rotate(-2deg);
+    transform: rotate(-2deg);
     line-height: 80px;
 }
 
 .hero-title-bg.hdiw {
     width: 80vw;
-    max-width: 100%;
+    max-width: fit-content;
     margin-top: 0;
     padding: 45px;
-    background-image: url(/assets/images/styling/title-bg-stroke.png);
+    background-image: url(/assets/images/styling/heading-stroke.png);
     background-position: 50% 50%;
     background-size: contain;
     background-repeat: no-repeat;
-    -webkit-transform: rotate(2deg);
-    -ms-transform: rotate(2deg);
-    transform: rotate(2deg);
 }
 
 /* Underlined text */

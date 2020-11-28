@@ -59,7 +59,8 @@
     color: lighten($text-color,25);
   }
   .post-title {
-    @include font-size(18,no);
+    font-size: 2.25rem;
+    text-align: center;
   }
   .post-excerpt {
     @include font-size(16);
