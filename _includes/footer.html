@@ -1,11 +1,24 @@
 <footer role="contentinfo" id="site-footer">
+
 {% include lang-selector-footer.html %}
+
 	<nav role="navigation" class="menu bottom-menu">
+	
 		<ul class="menu-item">		
 			<li><a class="dropdown-item" href="{{ site.baseurl }}{{ site.data.translations.footer-home[page.lang].link }}" role="menuitem">{{site.data.translations.footer-home[page.lang].title }}</a></li>
 			<li><a class="dropdown-item" href="{{ site.baseurl }}{{ site.data.translations.footer-gdpr[page.lang].link }}" role="menuitem">{{site.data.translations.footer-gdpr[page.lang].title }}</a></li>
 			<li><a class="dropdown-item" href="{{ site.baseurl }}{{ site.data.translations.footer-contact[page.lang].link }}" role="menuitem">{{site.data.translations.footer-contact[page.lang].title }}</a></li>
 		</ul>
+		
 	</nav><!-- /.bottom-menu -->
-	<p class="copyright">&#169; {{ site.time | date: '%Y' }} <a href="{{ site.baseurl }}{{ site.data.translations.footer-home[page.lang].link }}">Kunststofferei Leipzig</a></p>
+	
+	<img src="{{ site.baseurl }}/assets/images/logos-external/logo-mitmachfonds.png" alt="Logo Mitmachfonds" class="mitmachfonds-footer-img">
+	
+	<p class="mitmachfonds-footer-txt">Die Kunststofferei wird gefördert durch den <a href="https://www.mitmachfonds-sachsen.de/">Ideenwettbewerb Sächsische Mitmach-fonds</a>. Der Ideenwettbewerb Sächsische Mitmach-fonds wurde von der Sächsischen Staatsregierung initiiert. Diese Maßnahme wird mitfinanziert durch Steuermittel des Freistaates Sachsen auf der Grundlage des von den Abgeordneten des Sächsischen Landtages beschlossenen Haushaltes.
+	</p>
+	
+	<p class="copyright">
+		&#169; {{ site.time | date: '%Y' }} <a href="{{ site.baseurl }}{{ site.data.translations.footer-home[page.lang].link }}">Kunststofferei Leipzig</a>
+	</p>
+	
 </footer>
