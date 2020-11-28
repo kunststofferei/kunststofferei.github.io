@@ -14,5 +14,4 @@ You can find our workshop at Diezmannstraße in Leipzig's Alt-West.
 
 ## Timeline
 
-{% include tiktok-timeline.html %}
 
