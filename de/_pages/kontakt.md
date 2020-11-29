@@ -16,7 +16,7 @@ Ihr könnt uns per E-Mail erreichen unter [info@kunststofferei.de](mailto:info@k
 
 Um immer auf dem Laufenden zu bleiben, könnt Ihr uns auf [Facebook](https://www.facebook.com/Kunststofferei), [Instagram](https://www.instagram.com/Kunststofferei/), oder [Twitter](https://twitter.com/Kunststofferei) folgen.
 
-## Schreibt uns ein Brief
+## Schreibt uns einen Brief
 
 Kunststofferei/Trash Galore
 Diezmannstr 20
