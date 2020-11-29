@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Kunststofferei"
+title: ""
 
 permalink: /en/kunststofferei
 lang-ref: about
@@ -20,23 +20,19 @@ We hope that together we can foster a more sustainable use of plastics in our so
 
 ## Milestones
 
-#### October 2020...
+#### October 2020
 
-... the team bought a second-hand industrial shredder and named it Töge.
+The team bought a second-hand industrial shredder and named it Töge. We also repaired an old lab-oven we scavenged from skips which will hopefully become our compression molding machine. Oh yeah, and our super talented member Peter came up with an arbour press design and realized it using mostly used parts - we'll try that for cold pressing sheets in the upcoming weeks.
 
-#### July 2020...
+#### July 2020
 
-... In July 2020, [Trash Galore](https://trashgalore.de/) offered the team a physical space to start to establish their first preliminary workshop in.
+We found a home at [Trash Galore](https://trashgalore.de/) who generously offered us a physical space with two workshop rooms which can host our machines and plastic.
 
-#### June 2020...
+#### June 2020
 
-... Phil got the good news that his project - Make Plastic recycling local and create art at the same time -  was selected to receive a €5000 prize.
+Phil got good news. His project "Make Plastic recycling local and create art at the same time"  was awarded 5000 EUR through the [Ideenwettbewerb Sächsische Mitmach-fonds](https://www.mitmachfonds-sachsen.de/). This money allowed us to get going, purchase the first machines and part and personal safety equipment. How exciting!
 
-Shortly after, a team of scientists, climate activists, product designers and craftspersons  gathered and started the discussion on how to turn the ideas into actions and promptly founded the Kunststofferei.
-
-#### Early 2020...
-
-...  the first big step was when Phil applied for the [Sachsen Mitmachen Fonds 2020](https://www.mitmachfonds-sachsen.de/).
+Shortly after, a team of scientists, climate activists, product designers and craftspersons gathered and started the discussion on how to turn the ideas into actions and promptly founded the Kunststofferei. Here we are!
 
 ## Team
 
