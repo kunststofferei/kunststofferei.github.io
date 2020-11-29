@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "Gallerie"
+title: "Galerie"
 
-permalink: /de/gallerie/
+permalink: /de/galerie/
 lang-ref: gallery
 ---
 
