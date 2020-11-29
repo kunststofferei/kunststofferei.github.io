@@ -119,8 +119,10 @@
 	li {
 		a {
 			font-weight: 700;
-			@include font-size(24,no);
-			line-height: 1.5 * $masthead-height; // half the height to center vertically
+			font-family: $title-font;
+			font-size: 2.5rem;
+			margin-top: 2rem;
+			line-height: 0.7 * $masthead-height; // half the height to center vertically
 			color: $black;
 			text-transform: uppercase;
 		}
@@ -384,3 +386,5 @@
 	font-family: $alt-font;
 	color: lighten($black,40);
 }
+
+

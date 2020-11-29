@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "About us"
+title: "Kunststofferei"
 
-permalink: /en/about-us/
+permalink: /en/kunststofferei
 lang-ref: about
 ---
 

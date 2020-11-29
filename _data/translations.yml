@@ -8,11 +8,11 @@
     
  menu-about:
   en:
-    title: About us
-    link: /en/about-us
+    title: Kunststofferei
+    link: /en/kunststofferei
   de:
-    title: Über uns
-    link: /de/ueber-uns
+    title: Kunststofferei
+    link: /de/kunststofferei
  
  menu-gallery:
   en:
@@ -42,26 +42,26 @@
  menu-home:
   en:
     title: Kunststofferei Leipzig
-    link: /en
+    link: /en/kunststofferei
   de:
     title: Kunststofferei Leipzig
-    link: /de
+    link: /de/kunststofferei
     
  menu-switch:
   en:
     title: Auf Deutsch, bitte!
-    link: /de
+    link: /de/kunststofferei
   de:
     title: In English, please!
-    link: /en
+    link: /en/kunststofferei
     
  footer-home:
   en:
     title: Home
-    link: /en
+    link: /en/kunststofferei
   de:
     title: Startseite
-    link: /de
+    link: /de/kunststofferei
     
  footer-gdpr:
   en:
@@ -74,10 +74,10 @@
  menu-lang:
   en:
     title: Auf Deutsch
-    link: /de
+    link: /de/kunststofferei
   de:
     title: In English
-    link: /en
+    link: /en/kunststofferei
     
  
  

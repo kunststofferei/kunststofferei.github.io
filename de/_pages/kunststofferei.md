@@ -1,18 +1,18 @@
 ---
 layout: page
-title: "Über uns"
+title: "Kunststofferei"
 
-permalink: /de/ueber-uns
+permalink: /de/kunststofferei
 lang-ref: about
 ---
 
-## Mission
+## Unsere Mission
 
 Die Kunststofferei ist ein offenes Kollektiv, das an praktischen Lösungen arbeitet, um Kunststoff von der Natur, Verbrennungsanlagen und Deponien fernzuhalten, indem wir den Kunststoffrecyclingkreislauf direkt vor Ort schließen.
 
 Als Teil des [Precious Plastic Universums](https://preciousplastic.com/en/index.html) wollen wir gemeinsam mit Euch unsere Wegwerfgesellschaft überdenken und aus lokalen Kunststoffabfällen langlebige, nützliche und recycelbare Produkte herstellen um somit einen nachhaltigen Kunststoff-Konsum zu fördern und die Prinzipien der Circular Economy – Wertschöpfung statt Verschwendung – regional umzusetzen.
 
-## Precious Plastic Universe
+## Das Precious Plastic Universe
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Os7dREQ00l4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
