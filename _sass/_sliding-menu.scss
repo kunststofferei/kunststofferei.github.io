@@ -29,7 +29,7 @@
   display: block;
   width: $button-size * 2;
   height: $button-size * 2;
-  background: $primary-color;
+  background: $slider-color;
   outline: 0;
   padding: 0;
   border: 2.5px solid transparent;
@@ -41,7 +41,7 @@
   }
   transition: $sliding-menu-animation;
   &.slide {
-    background: $danger-color;
+    background: $slider-color;
     transform: translateX(0); /* don't slide close button on small screens only */
     @include media($medium) {
       transform: translateX(em(-225)); /* reset slide position */
@@ -73,7 +73,7 @@
   }
   transform: translateX(100%);
   transition: $sliding-menu-animation;
-  background: $sliding-menu-background;
+  background: $secondary-color;
   z-index: 20;
   overflow-y: auto;
   overflow-x: hidden;
@@ -88,7 +88,7 @@
     @include media($large) {
       margin-right: 20%;
     }
-    color: $white;
+    color: $black;
 	font-size: 2rem;
     span {
       display: block;
@@ -120,11 +120,11 @@
   .menu-item {
     a {
       display: block;
-      color: $white;
+      color: $primary-color;
       text-decoration: none;
     }
     a:hover {
-      color: $black;
+      color: $white;
     }
     .title {
       display: block;
@@ -136,7 +136,7 @@
   }
   .sub-menu-item > li a {
     display: block;
-    color: $white;
+    color: $primary-color;
     font-style: italic;
   }
   .menu-item .home a {

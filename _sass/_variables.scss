@@ -37,8 +37,9 @@ $comp-color                  	: complement($base-color);
 $border-color                	: #ddd;
 $link-color                  	: #222;
 
-$primary-color               	: #0097EB;
-$secondary-color               	: #f58d8e;
+$primary-color               	: $black;
+$secondary-color               	: #97CDEB;
+$slider-color					: #444444;
 $success-color               	: #2ecc71;
 $warning-color               	: #f1c40f;
 $danger-color                	: #e74c3c;
