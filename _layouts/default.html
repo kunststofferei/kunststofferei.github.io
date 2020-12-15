@@ -2,7 +2,7 @@
 <html>
   <head>
     
-    <!-- START Google Analytics tracker -->
+    <!-- START Google Analytics tracker 
 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-251968938-1"></script>
 		<script>  
 		  window.dataLayer = window.dataLayer || [];  
@@ -10,7 +10,17 @@
 		  gtag('js', new Date());      
 	      gtag('config', 'UA-251968938-1');
 		</script>
-    <!-- END Google Analytics tracker -->
+    <!-- END Google Analytics tracker -->	
+	
+	<!-- START Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-XB1RM5G16Q"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+			gtag('config', 'G-XB1RM5G16Q');
+		</script>
+    <!-- END Google Analytics -->
     
     <meta charset="utf-8">
     <title>{% if page.title %}{{ page.title }} • {% endif %}{{ site.title }}</title>
@@ -41,6 +51,7 @@
       <script src="{{ site.baseurl }}/js/vendor/html5shiv.min.js"></script>
       <script src="{{ site.baseurl }}/js/vendor/respond.min.js"></script>
     <![endif]-->
+
 	
 	
 
