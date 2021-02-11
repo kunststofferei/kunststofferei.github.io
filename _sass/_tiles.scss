@@ -56,9 +56,8 @@
   }
   .teamflag {
     display: block;
-    width: 25px;
-    margin: -30px auto;
-    border: 3px black solid;
+    width: 15%;
+    margin: -15% auto -10% auto;
   }
   .entry-date {
     @include font-size(16, no);
