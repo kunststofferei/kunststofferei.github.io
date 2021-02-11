@@ -10,7 +10,7 @@ lang-ref: about
 
 Die Kunststofferei ist ein offenes Kollektiv, das an praktischen Lösungen arbeitet, um Kunststoff von der Natur, Verbrennungsanlagen und Deponien fernzuhalten, indem wir den Kunststoffrecyclingkreislauf direkt vor Ort schließen.
 
-Als Teil des [Precious Plastic Universums](https://preciousplastic.com/en/index.html) wollen wir gemeinsam mit Euch unsere Wegwerfgesellschaft überdenken und aus lokalen Kunststoffabfällen langlebige, nützliche und recycelbare Produkte herstellen um somit einen nachhaltigen Kunststoff-Konsum zu fördern und die Prinzipien der Circular Economy – Wertschöpfung statt Verschwendung – regional umzusetzen.
+Als Teil des [Precious Plastic Universums](https://preciousplastic.com/) wollen wir gemeinsam mit Euch unsere Wegwerfgesellschaft überdenken und aus lokalen Kunststoffabfällen langlebige, nützliche und recycelbare Produkte herstellen um somit einen nachhaltigen Kunststoff-Konsum zu fördern und die Prinzipien der Circular Economy – Wertschöpfung statt Verschwendung – regional umzusetzen.
 
 ## Das Precious Plastic Universum
 
@@ -31,7 +31,6 @@ Wir haben bei [Trash Galore](https://trashgalore.de/) dankenderweise ein zu Haus
 Phil hat gute Nachrichten erhalten: Sein Projekt "Plastikrecycling regional machen – und dabei Kunst erschaffen!" wurde im [Ideenwettbewerb Sächsische Mitmach-fonds](https://www.mitmachfonds-sachsen.de/) ausgezeichnet und wir dürfen und 5000 EUR Preisgeld freuen, dass wir für unsere ersten Maschinen, Teile und Schutzbekleidung ausgeben werden. Wie cool!
 
 Kurz darauf versammelten sich dann auch ein Team von Wissenstschaftler*Innen, Klimaaktivist*Innen, Produktdesigner*Innen und Handwerker*Innen und begannen die Umseztung der Idee zu planen - und gründeten kurz darauf die Kunststofferei. Und hier sind wir!
-
 
 ## Team
 

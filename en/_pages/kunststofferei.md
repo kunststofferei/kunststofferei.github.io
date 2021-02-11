@@ -8,10 +8,9 @@ lang-ref: about
 
 ## Mission
 
-
 Kunststofferei is an open collective working on practical solutions to divert plastic from nature, incinerators and landfills by closing the plastic recycling loop locally.
 
-As part of the [Precious Plastic Universe](https://preciousplastic.com/en/index.html), we want to rethink our single-use mentality and aim to create long-lasting, useful and recyclable products from locally sourced plastic waste.
+As part of the [Precious Plastic Universe](https://preciousplastic.com/), we want to rethink our single-use mentality and aim to create long-lasting, useful and recyclable products from locally sourced plastic waste.
 We hope that together we can foster a more sustainable use of plastics in our society and implement the principles of a true circular economy – value creation instead of wastefulness – on a regional scale.
 
 ## Precious Plastic Universe
@@ -30,7 +29,7 @@ We found a home at [Trash Galore](https://trashgalore.de/) who generously offere
 
 #### June 2020
 
-Phil got good news. His project "Make Plastic recycling local and create art at the same time"  was awarded 5000 EUR through the [Ideenwettbewerb Sächsische Mitmach-fonds](https://www.mitmachfonds-sachsen.de/). This money allowed us to get going, purchase the first machines and part and personal safety equipment. How exciting!
+Phil got good news. His project "Make Plastic recycling local and create art at the same time" was awarded 5000 EUR through the [Ideenwettbewerb Sächsische Mitmach-fonds](https://www.mitmachfonds-sachsen.de/). This money allowed us to get going, purchase the first machines and part and personal safety equipment. How exciting!
 
 Shortly after, a team of scientists, climate activists, product designers and craftspersons gathered and started the discussion on how to turn the ideas into actions and promptly founded the Kunststofferei. Here we are!
 
