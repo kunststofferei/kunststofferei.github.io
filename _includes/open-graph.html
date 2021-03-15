@@ -1,23 +1,53 @@
-	<!-- Twitter Cards -->
-	<meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-	{% if page.excerpt %}<meta name="twitter:description" content="{{ page.excerpt | strip_html }}">{% endif %}
-	{% if site.owner.twitter %}<meta name="twitter:site" content="@{{ site.owner.twitter }}">{% endif %}
-	{% if author.twitter %}<meta name="twitter:creator" content="@{{ author.twitter }}">{% endif %}
-	{% if page.image.feature %}
-	<meta name="twitter:card" content="summary_large_image">
-	<meta name="twitter:image" content="{{ site.baseurl }}/images/{{ page.image.feature }}">
-	{% else %}
-	<meta name="twitter:card" content="summary">
-	<meta name="twitter:image" content="{% if page.image.thumb %}{{ site.baseurl }}/images/{{ page.image.thumb }}{% else %}{{ site.baseurl }}/images/{{ site.logo }}{% endif %}">
-	{% endif %}
-	<!-- Open Graph -->
-	<meta property="og:locale" content="{{ site.locale }}">
-	<meta property="og:type" content="article">
-	<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-	{% if page.excerpt %}<meta property="og:description" content="{{ page.excerpt | strip_html }}">
-		{% else %}
-		<meta property="og:description" content="We are hosting regular pop-up Zero Waste Festivals at various locations in Ireland. Find out more about our upcoming and past events here.">
-	{% endif %}
-	<meta property="og:url" content="https://www.zerowastefestival.ie{{ page.url }}">
-	<meta property="og:site_name" content="{{ site.title }}">
-	<meta property="og:image" content="https://www.zerowastefestival.ie/images/logos-zero-waste-festival/zero-waste-festival-ireland-logo.jpg">
+<!-- Twitter Cards -->
+<meta
+  name="twitter:title"
+  content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}"
+/>
+{% if page.excerpt %}<meta
+  name="twitter:description"
+  content="{{ page.excerpt | strip_html }}"
+/>{% endif %} {% if site.owner.twitter %}<meta
+  name="twitter:site"
+  content="@{{ site.owner.twitter }}"
+/>{% endif %} {% if author.twitter %}<meta
+  name="twitter:creator"
+  content="@{{ author.twitter }}"
+/>{% endif %} {% if page.image.feature %}
+<meta name="twitter:card" content="summary_large_image" />
+<meta
+  name="twitter:image"
+  content="{{ site.baseurl }}/images/{{ page.image.feature }}"
+/>
+{% else %}
+<meta name="twitter:card" content="summary" />
+<meta
+  name="twitter:image"
+  content="{% if page.image.thumb %}{{ site.baseurl }}/images/{{ page.image.thumb }}{% else %}{{ site.baseurl }}/images/{{ site.logo }}{% endif %}"
+/>
+{% endif %}
+<!-- Open Graph -->
+<meta property="og:locale" content="{{ site.locale }}" />
+<meta property="og:type" content="article" />
+<meta
+  property="og:title"
+  content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}"
+/>
+{% if page.excerpt %}<meta
+  property="og:description"
+  content="{{ page.excerpt | strip_html }}"
+/>
+{% else %}
+<meta
+  property="og:description"
+  content="Kunststofferei is an open collective working on practical solutions to divert plastic from nature, incinerators and landfills by closing the plastic recycling loop locally."
+/>
+{% endif %}
+<meta
+  property="og:url"
+  content="https://www.kunststofferei.de/{{ page.url }}"
+/>
+<meta property="og:site_name" content="{{ site.title }}" />
+<meta
+  property="og:image"
+  content="https://www.kunststofferei.de/images/logos-kunststofferei/logo-kunststofferei-square-160.png"
+/>
