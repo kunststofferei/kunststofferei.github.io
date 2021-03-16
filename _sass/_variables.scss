@@ -5,108 +5,109 @@
 /*
    Typography variables
    ========================================================================== */
-   
-@font-face { font-family: ppfont; src: url('../assets/fonts/PreciousPlasticFont-Bold.ttf'); } 
 
-$base-font                   	: "Raleway","Lato","Times New Roman",serif;
-$heading-font                	: "Varela Round","Segoe UI",Arial,sans-serif;
-$title-font						: ppfont;
-$caption-font                	: $base-font;
-$code-font                   	: monospace;
-$alt-font                    	: $heading-font;
+@font-face {
+  font-family: ppfont;
+  src: url("../assets/fonts/PreciousPlasticFont-Bold.ttf");
+}
 
-$doc-font-size               	: 16;
-$doc-line-height             	: 24;
+$base-font: "Raleway", "Lato", "Times New Roman", serif;
+$heading-font: "Varela Round", "Segoe UI", Arial, sans-serif;
+$title-font: ppfont;
+$caption-font: $base-font;
+$code-font: monospace;
+$alt-font: $heading-font;
 
-$border-radius               	: 3px;
+$doc-font-size: 16;
+$doc-line-height: 24;
+
+$border-radius: 3px;
 
 /*
    Color variables
    ========================================================================== */
 
-$white                           : #fff;
-$black                           : #313130;
+$white: #fff;
+$black: #313130;
 
-$body-color                  	: #ebebeb;
+$body-color: #ebebeb;
 
-$text-color                  	: $black;
-$caption-color                  : mix($white, $text-color, 25%);
+$text-color: $black;
+$caption-color: mix($white, $text-color, 25%);
 
-$base-color                  	: $black;
-$comp-color                  	: complement($base-color);
-$border-color                	: #ddd;
-$link-color                  	: #222;
+$base-color: $black;
+$comp-color: complement($base-color);
+$border-color: #ddd;
+$link-color: #222;
 
-$primary-color               	: $black;
-$secondary-color               	: #97CDEB;
-$slider-color					: #444444;
-$success-color               	: #2ecc71;
-$warning-color               	: #f1c40f;
-$danger-color                	: #e74c3c;
-$info-color                  	: #3498db;
+$primary-color: $black;
+$secondary-color: #97cdeb;
+$slider-color: #444444;
+$success-color: #2ecc71;
+$warning-color: #f1c40f;
+$danger-color: #e74c3c;
+$info-color: #3498db;
 
-$table-border-color          	: $border-color;
-$table-border                	: 1px solid $table-border-color;
-$table-background            	: $body-color;
-$table-header-color          	: lighten($table-background, 10);
-$table-hover-color           	: darken($table-background, 2);
-$table-stripe-color          	: darken($table-background, 4);
-$table-stripe-color-hover    	: darken($table-stripe-color, 5);
+$table-border-color: $border-color;
+$table-border: 1px solid $table-border-color;
+$table-background: $body-color;
+$table-header-color: lighten($table-background, 10);
+$table-hover-color: darken($table-background, 2);
+$table-stripe-color: darken($table-background, 4);
+$table-stripe-color-hover: darken($table-stripe-color, 5);
 
-$facebook-color					: #3b5998;
-$flickr-color					: #ff0084;
-$foursquare-color				: #0cbadf;
-$google-plus-color				: #dd4b39;
-$instagram-color				: #4e433c;
-$linkedin-color					: #4875b4;
-$pinterest-color				: #cb2027;
-$rss-color						: #fa9b39;
-$tumblr-color					: #2c4762;
-$twitter-color					: #55acee;
-$vimeo-color					: #1ab7ea;
-$youtube-color		            : #ff3333;
-
+$facebook-color: #3b5998;
+$flickr-color: #ff0084;
+$foursquare-color: #0cbadf;
+$google-plus-color: #dd4b39;
+$instagram-color: #4e433c;
+$linkedin-color: #4875b4;
+$pinterest-color: #cb2027;
+$rss-color: #fa9b39;
+$tumblr-color: #2c4762;
+$twitter-color: #55acee;
+$vimeo-color: #1ab7ea;
+$youtube-color: #ff3333;
 
 /*
    Form variables
    ========================================================================== */
 
-$form-border-color           	: $border-color;
-$form-border-color-hover     	: darken($border-color, 10);
-$form-border-color-focus     	: $primary-color;
-$form-border-radius          	: $border-radius;
-$form-box-shadow             	: inset 0 1px 3px hsla(0, 0%, 0%, 0.06);
-$form-box-shadow-focus       	: $form-box-shadow, 0 0 5px rgba(darken($form-border-color-focus, 5), 0.7);
-$form-font-family            	: $base-font;
-$form-font-size              	: $doc-font-size;
-
+$form-border-color: $border-color;
+$form-border-color-hover: darken($border-color, 10);
+$form-border-color-focus: $primary-color;
+$form-border-radius: $border-radius;
+$form-box-shadow: inset 0 1px 3px hsla(0, 0%, 0%, 0.06);
+$form-box-shadow-focus: $form-box-shadow,
+  0 0 5px rgba(darken($form-border-color-focus, 5), 0.7);
+$form-font-family: $base-font;
+$form-font-size: $doc-font-size;
 
 /*
    Sliding menu navigation variables
    ========================================================================== */
 
-$sliding-menu-border-color	 	 : $primary-color;
-$sliding-menu-background 		 : $primary-color;
-$sliding-menu-color 	 		 : $white;
-$sliding-menu-background-hover   : $primary-color;
-$sliding-menu-color-hover	 	 : $white;
-$sliding-menu-border   			 : 1px solid $sliding-menu-border-color;
-$button-size		         	 : 20px;
-$transition						 : 0.15s; // increase this to see the transformations in slow-motion
-$sliding-menu-animation          : all 500ms cubic-bezier(.86,.01,.77,.78);
+$sliding-menu-border-color: $primary-color;
+$sliding-menu-background: $primary-color;
+$sliding-menu-color: $white;
+$sliding-menu-background-hover: $primary-color;
+$sliding-menu-color-hover: $white;
+$sliding-menu-border: 1px solid $sliding-menu-border-color;
+$button-size: 20px;
+$transition: 0.15s; // increase this to see the transformations in slow-motion
+$sliding-menu-animation: all 500ms cubic-bezier(0.86, 0.01, 0.77, 0.78);
 
 /*
    Badge variables
    ========================================================================== */
 
-$badge-background              : $primary-color;
-$badge-dark-color              : $black;
-$badge-danger-color            : $danger-color;
-$badge-info-color              : $info-color;
-$badge-warning-color           : $warning-color;
-$badge-success-color           : $success-color;
-$badge-font-color              : $white;
-
+$badge-background: $primary-color;
+$badge-dark-color: $black;
+$badge-danger-color: $danger-color;
+$badge-info-color: $info-color;
+$badge-warning-color: $warning-color;
+$badge-success-color: $success-color;
+$badge-font-color: $white;
 
 /*
    Masthead variables
