@@ -2,6 +2,6 @@
 layout: linktree
 title: "Linktree"
 
-permalink: /linktree/
+permalink: /en/linktree/
 lang-ref: linktree
 ---
